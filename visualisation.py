@@ -15,6 +15,7 @@ app = Dash()
 
 header = html.H1(
     "Pink morsel sales",
+    id='header',
     style={"textAlign": "center"},
 )
 region_picker = dcc.RadioItems(
