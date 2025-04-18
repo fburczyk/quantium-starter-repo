@@ -2,7 +2,7 @@ import csv
 import os
 
 enter_path = "./data"
-exit_path = "./formated_data.csv"
+exit_path = "./formatted_data.csv"
 
 with open(exit_path, "w", newline="") as output_data:
     writer = csv.writer(output_data)
